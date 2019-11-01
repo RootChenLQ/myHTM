@@ -1,0 +1,19 @@
+SP:
+  Shape: 2048
+  boost:
+  - [0.1, 0.3]
+  - [0.4, 0.4]
+  permanance:
+  - [0.1, 0.3]
+  - [0.6, 0.9]
+  permanance_thres: 0.5
+  synapses:
+  - [1, 2]
+  - [3, 4]
+TM:
+  Shape: [2048, 10]
+  synapses:
+  - - [0.1, 0.2, 0.3]
+    - [0.2, 0.3, 0.6]
+encoder:
+  encoderparams: {version: 1}
